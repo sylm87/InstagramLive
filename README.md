@@ -22,7 +22,7 @@ channel for questions, contributions and ideas.
 1. Install the module via npm from the **Coming Soon** repository
 
 ```shell script
-npm i [ Coming Soon]
+npm i [ Coming Soon ]
 
 *For now, clone the repository and run `npm install`*
 ```
