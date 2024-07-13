@@ -6,19 +6,14 @@ process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
 
 const client = new InstagramLiveClient(
   "loop.offline",
-  {
-    username: process.env.INSTAGRAM_USERNAME,
-    password: process.env.INSTAGRAM_PASSWORD
-  },
+  {device_id: process.env.DEVICE_ID, session_id: process.env.SESSION_ID},
   process.env.PROXY_URL ? new URL(process.env.PROXY_URL) : undefined
 );
 
 client.on("connected", () => {
-  console.log('CON')
+  console.log('Connected!')
 })
-/**
- * Log comment data
- */
+
 client.on("comment", (data) => {
   console.log("Comment Data", data);
 })
