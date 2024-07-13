@@ -22,7 +22,9 @@ channel for questions, contributions and ideas.
 1. Install the module via npm from the **Coming Soon** repository
 
 ```shell script
-pip install TikTokLive
+npm i [ Coming Soon]
+
+*For now, clone the repository and run `npm install`*
 ```
 
 2. Create your first chat connection
