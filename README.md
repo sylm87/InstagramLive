@@ -1,4 +1,4 @@
-TikTokLive
+InstagramLive
 ==================
 The definitive Python library to connect to Instagram Live.
 
