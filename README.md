@@ -1,6 +1,6 @@
 InstagramLive
 ==================
-The definitive Python library to connect to Instagram Live.
+The definitive TypeScript library to connect to Instagram Live.
 
 InstagramLive is a TypeScript library designed to connect to Instagram livestreams and receive realtime events
 such as comments, gifts, and likes through a short-polling connection to Instagrams's internal API service. This library
